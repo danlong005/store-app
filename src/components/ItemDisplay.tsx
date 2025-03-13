@@ -13,6 +13,7 @@ export function ItemDisplay(props: Readonly<ItemDisplayProps>) {
       <div>Item Description</div>
       <div>{item.description}</div>
       <div>${item.price}</div>
+      <div>{item.quantity}</div>
       <div>
         <ItemControls item={item} />
       </div>
